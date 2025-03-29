@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaLinkedin, FaGithub, FaInstagram, FaFacebook} from "react-icons/fa"
 import {FaSquareXTwitter} from "react-icons/fa6"
+import { SiLeetcode } from "react-icons/si";
 
 export default function Nav() {
   return (
@@ -9,10 +10,8 @@ export default function Nav() {
     </div>
     <div className='m-8 flex item-center justify-center gap-4 text-2xl cursor-pointer '>
         <FaLinkedin />
-        <FaFacebook />
+        <SiLeetcode />
         <FaGithub/>
-        <FaInstagram />
-        <FaSquareXTwitter />
     </div>
     </div>
   )
