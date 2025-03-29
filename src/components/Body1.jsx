@@ -18,7 +18,11 @@ const Body1 = () => {
     </div>
     
     <div className='w-full lg:w-1/2 lg:p-8'>
-      <motion.div inital={{x:100, opacity:0}} animate={{ x: 0, opacity:1 }} transition={{duration:1, delay:1.2}} className='flex justify-center z-0'>
+      <motion.div 
+            whileInView={{opacity:1, x:0}}
+            initial={{opacity:0, x:100}}
+            transition={{duration:0.5, delay:0.5}}
+        className='flex justify-center z-0'>
         <img
           src='https://c1.wallpaperflare.com/path/325/617/134/computer-keyboard-apple-electronics-5f6c98e13ee8d6f4043792b53338fef9.jpg' 
           alt='Keyboard'
