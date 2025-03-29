@@ -42,14 +42,16 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: "https://c1.wallpaperflare.com/path/623/487/747/technology-code-coding-computer-11ac202ba84dfc97492fc1107f046cd4.jpg",
+    image: "https://c1.wallpaperflare.com/path/78/305/104/hand-type-keyboard-money-2100e06c2cedbaa91c677222ff4afa3a.jpg",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
-    // image: project2,
+    // image: project1,
+    image: "https://c1.wallpaperflare.com/path/623/487/747/technology-code-coding-computer-11ac202ba84dfc97492fc1107f046cd4.jpg",
+
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
@@ -57,6 +59,8 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     // image: project3,
+    image: "https://c1.wallpaperflare.com/path/623/487/747/technology-code-coding-computer-11ac202ba84dfc97492fc1107f046cd4.jpg",
+
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
@@ -64,6 +68,8 @@ export const PROJECTS = [
   {
     title: "Blogging Platform",
     // image: project4,
+    image: "https://c1.wallpaperflare.com/path/623/487/747/technology-code-coding-computer-11ac202ba84dfc97492fc1107f046cd4.jpg",
+
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
