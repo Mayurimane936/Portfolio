@@ -6,7 +6,7 @@ export const EXPERIENCES = [
   {
     year: "June 2024 - Present",
     role: "Junior Security Engineer",
-    company: "Google Inc.",
+    company: "Identra.ai Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
